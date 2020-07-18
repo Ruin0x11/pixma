@@ -1,4 +1,4 @@
-local pixma = require("src.pixma")
+local pixma = require("pixma")
 local inspect = require("thirdparty.inspect")
 local socket = require("socket")
 

@@ -165,7 +165,7 @@ function pixma:get_device_id()
 end
 
 function pixma:get_capabilities()
-   local capability_xml = "<?xml version=\"1.0\" encoding=\"utf-8\" ?><cmd xmlns:ivec=\"http://www.canon.com/ns/cmd/2008/07/common/\"><ivec:contents><ivec:operation>GetCapability</ivec:operation><ivec:param_set servicetype=\"print\"></ivec:param_set></ivec:contents></cmd>"
+   local capability_xml = ivec.get_capability()
 
    local r ={
       {
@@ -212,7 +212,7 @@ local function parse_msi(node)
 
    local msi = {}
    for _, v in ipairs(node) do
-      msi[#msi+1] = { type = node.type, value = node[1] }
+      msi[#msi+1] = { type = v.type, value = v[1] }
    end
    return msi
 end
@@ -297,7 +297,6 @@ end
 
 function pixma:get_status()
    local status_xml = ivec.get_status()
-   print(status_xml)
 
    local r ={
       {

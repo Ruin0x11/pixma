@@ -38,7 +38,7 @@ local id = printer:get_device_id()
 local caps = printer:get_capabilities()
 local status = printer:get_status()
 
-printer:start_job("test/android/test2.jpeg", "JPEGPAGE", 2)
+printer:start_job("./test.jpg", "JPEGPAGE", 2)
 
 repeat
    socket.sleep(1)

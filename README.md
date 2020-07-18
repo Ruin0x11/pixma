@@ -23,7 +23,7 @@ local id = printer:get_device_id()
 local capabilities = printer:get_capabilities()
 local status = printer:get_status()
 
-printer:start_job("./picture.jpg", "JPEGPAGE", 2)
+printer:start_job("test.jpg", "JPEGPAGE", 2)
 
 repeat
    socket.sleep(1)

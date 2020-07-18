@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/">
+  <ivec:contents>
+    <ivec:operation>SendData</ivec:operation>
+    <ivec:param_set servicetype="print">
+      <ivec:jobID>00000002</ivec:jobID>
+      <ivec:format>JPEGPAGE</ivec:format>
+      <ivec:datasize>597601</ivec:datasize>
+    </ivec:param_set>
+  </ivec:contents>
+</cmd>

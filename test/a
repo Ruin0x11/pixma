@@ -1,0 +1,8 @@
+POST /canon/ij/command2/port1 HTTP/1.1
+Host: 192.168.1.141
+Connection: Keep-Alive
+Content-Type: application/octet-stream
+Content-Length: 237
+X-CHMP-Version: 1.3.0
+
+<?xml version="1.0" encoding="utf-8" ?><cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"><ivec:contents><ivec:operation>GetCapability</ivec:operation><ivec:param_set servicetype="print"></ivec:param_set></ivec:contents></cmd>

@@ -1,0 +1,89 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<cmd xmlns:ivec="http://www.canon.com/ns/cmd/2008/07/common/"
+     xmlns:vcn="http://www.canon.com/ns/cmd/2008/07/canon/">
+  <ivec:contents>
+    <ivec:operation>GetStatusResponse</ivec:operation>
+    <ivec:param_set servicetype="print">
+      <ivec:response>OK</ivec:response>
+      <ivec:response_detail></ivec:response_detail>
+      <ivec:status>idle</ivec:status>
+      <ivec:status_detail/>
+      <ivec:current_support_code/>
+      <vcn:eid>
+        <vcn:url_id>00</vcn:url_id>
+      </vcn:eid>
+      <ivec:currentpapertype physicalinputbin="inputbin_p1">custom-media-type-canon-3</ivec:currentpapertype>
+      <ivec:currentpapersize physicalinputbin="inputbin_p1">na_index-4x6_4x6in</ivec:currentpapersize>
+      <ivec:current_papersize_width physicalinputbin="inputbin_p1">10160</ivec:current_papersize_width>
+      <ivec:current_papersize_height physicalinputbin="inputbin_p1">15240</ivec:current_papersize_height>
+      <ivec:currentpapertype physicalinputbin="inputbin_p2">stationery</ivec:currentpapertype>
+      <ivec:currentpapersize physicalinputbin="inputbin_p2">na_letter_8.5x11in</ivec:currentpapersize>
+      <ivec:current_papersize_width physicalinputbin="inputbin_p2">21590</ivec:current_papersize_width>
+      <ivec:current_papersize_height physicalinputbin="inputbin_p2">27940</ivec:current_papersize_height>
+      <ivec:marker_info>
+        <ivec:ink>
+          <ivec:model><![CDATA[CLI-281XXL<C>]]></ivec:model>
+          <ivec:color>C</ivec:color>
+          <ivec:icon>none</ivec:icon>
+          <ivec:level>70</ivec:level>
+          <vcn:tca>AC</vcn:tca>
+          <ivec:order>1</ivec:order>
+        </ivec:ink>
+        <ivec:ink>
+          <ivec:model><![CDATA[CLI-281XXL<BK>]]></ivec:model>
+          <ivec:color>BK</ivec:color>
+          <ivec:icon>none</ivec:icon>
+          <ivec:level>90</ivec:level>
+          <vcn:tca>AC</vcn:tca>
+          <ivec:order>2</ivec:order>
+        </ivec:ink>
+        <ivec:ink>
+          <ivec:model><![CDATA[CLI-281<PB>SETUP]]></ivec:model>
+          <ivec:color>PB</ivec:color>
+          <ivec:icon>none</ivec:icon>
+          <ivec:level>60</ivec:level>
+          <vcn:tca>AC</vcn:tca>
+          <ivec:order>3</ivec:order>
+        </ivec:ink>
+        <ivec:ink>
+          <ivec:model><![CDATA[CLI-281XXL<Y>]]></ivec:model>
+          <ivec:color>Y</ivec:color>
+          <ivec:icon>none</ivec:icon>
+          <ivec:level>70</ivec:level>
+          <vcn:tca>AC</vcn:tca>
+          <ivec:order>4</ivec:order>
+        </ivec:ink>
+        <ivec:ink>
+          <ivec:model><![CDATA[PGI-280<PGBK>SETUP]]></ivec:model>
+          <ivec:color>PGBK</ivec:color>
+          <ivec:icon>none</ivec:icon>
+          <ivec:level>50</ivec:level>
+          <vcn:tca>AC</vcn:tca>
+          <ivec:order>5</ivec:order>
+        </ivec:ink>
+        <ivec:ink>
+          <ivec:model><![CDATA[CLI-281XXL<M>]]></ivec:model>
+          <ivec:color>M</ivec:color>
+          <ivec:icon>none</ivec:icon>
+          <ivec:level>70</ivec:level>
+          <vcn:tca>AC</vcn:tca>
+          <ivec:order>6</ivec:order>
+        </ivec:ink>
+      </ivec:marker_info>
+      <ivec:status_detail_list/>
+      <vcn:hri>2</vcn:hri>
+      <vcn:pdr>3</vcn:pdr>
+      <vcn:hrc>00</vcn:hrc>
+      <vcn:isu>0</vcn:isu>
+      <vcn:msi>
+        <vcn:item type="A">OFF</vcn:item>
+        <vcn:item type="B">240</vcn:item>
+        <vcn:item type="D">auto</vcn:item>
+        <vcn:item type="E">3</vcn:item>
+        <vcn:item type="J">OFF</vcn:item>
+        <vcn:item type="K">21000700</vcn:item>
+      </vcn:msi>
+      <ivec:jobinfo/>
+    </ivec:param_set>
+  </ivec:contents>
+</cmd>

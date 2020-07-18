@@ -1,0 +1,14 @@
+<?xml version='1.0' ?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:wprt="http://schemas.microsoft.com/windows/2006/08/wdp/print" xmlns:wprt20="http://schemas.microsoft.com/windows/2014/04/wdp/printV20">
+	<soap:Header>
+		<wsa:Action>http://schemas.microsoft.com/windows/2014/04/wdp/printV20/CreatePrintJob2Response</wsa:Action>
+		<wsa:MessageID>urn:uuid:53afb250-4376-11b2-a9f5-7438b71cb2c4</wsa:MessageID>
+		<wsa:RelatesTo>urn:uuid:63e45f45-4935-4ff4-a9ea-8c4a0b98c61a</wsa:RelatesTo>
+		<wsa:To>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:To>
+	</soap:Header>
+	<soap:Body>
+		<wprt20:CreatePrintJob2Response>
+			<wprt:JobId>2</wprt:JobId>
+		</wprt20:CreatePrintJob2Response>
+	</soap:Body>
+</soap:Envelope>

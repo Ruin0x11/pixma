@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<soap:Envelope xmlns:soap="http://www.w3.org/2003/05/soap-envelope" xmlns:wsa="http://schemas.xmlsoap.org/ws/2004/08/addressing" xmlns:pr1="http://schemas.microsoft.com/windows/2014/04/wdp/printV20">
+  <soap:Header>
+    <wsa:To>http://192.168.1.141:80/wsd/printservice.cgi</wsa:To>
+    <wsa:Action>http://schemas.microsoft.com/windows/2014/04/wdp/printV20/CreatePrintJob2</wsa:Action>
+    <wsa:MessageID>urn:uuid:63e45f45-4935-4ff4-a9ea-8c4a0b98c61a</wsa:MessageID>
+    <wsa:ReplyTo>
+      <wsa:Address>http://schemas.xmlsoap.org/ws/2004/08/addressing/role/anonymous</wsa:Address>
+    </wsa:ReplyTo>
+    <wsa:From>
+      <wsa:Address>urn:uuid:a8999d86-05fe-42bb-8720-7a068c8a1c9c</wsa:Address>
+    </wsa:From>
+  </soap:Header>
+  <soap:Body>
+    <pr1:CreatePrintJob2Request>
+      <pr1:JobDescription2>
+        <pr1:JobName>Canon Easy-PhotoPrint Editor</pr1:JobName>
+        <pr1:JobOriginatingUserName>kuzuki</pr1:JobOriginatingUserName>
+        <pr1:JobOriginatingUserIdentityEntries>
+          <pr1:UserIdentityEntry>
+            <pr1:UserIdentityProvider>WindowsServerActiveDirectory</pr1:UserIdentityProvider>
+            <pr1:UserIdentity>BOX\kuzuki</pr1:UserIdentity>
+          </pr1:UserIdentityEntry>
+        </pr1:JobOriginatingUserIdentityEntries>
+      </pr1:JobDescription2>
+    </pr1:CreatePrintJob2Request>
+  </soap:Body>
+</soap:Envelope>
